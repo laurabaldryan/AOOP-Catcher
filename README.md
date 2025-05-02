@@ -15,12 +15,16 @@ This is a C++ project for simulating an anthropomorphic stick-figure body using 
 ---
 
 ##  Project Structure
+
+```
 OOCatcher/
 ├── data/ # Output files (e.g., moves.dat)
 ├── src/ # Source files (.cpp) and Header files (.h)
 ├── .vscode/ # VS Code tasks and config files
 ├── OOCatcherApp.exe # Executable (after build)
 ├── README.md # This file
+
+```
 
 
 ---
