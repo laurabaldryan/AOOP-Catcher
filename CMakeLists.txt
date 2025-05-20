@@ -6,7 +6,6 @@ set(CMAKE_CXX_STANDARD 17)
 # Set the path to Raylib
 set(RAYLIB_DIR "C:/Libraries/raylib")  # <-- Adjust if needed
 
-# Include Raylib headers
 include_directories(${RAYLIB_DIR}/include)
 link_directories(${RAYLIB_DIR}/lib)
 
@@ -28,6 +27,6 @@ target_link_libraries(OOCatcher
         opengl32
         gdi32
         winmm
-        kernel32  # for threads
-        user32    # optional, for input events
+        kernel32
+        user32
 )
